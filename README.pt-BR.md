@@ -3,7 +3,7 @@
   🇺🇸 **[English Version](README.md)**
   <br>
 
-  # 🧠 Algoritmos & Lógica de Programação — Fatec
+  # 🧠 Algoritmos & Lógica de Programação | Fatec
 
   ### **Práticas, Estruturas de Dados e Fundamentos de Computação com TypeScript**
 

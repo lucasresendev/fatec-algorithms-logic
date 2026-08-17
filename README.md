@@ -3,9 +3,9 @@
   🇧🇷 **[Versão em Português](README.pt-BR.md)**
   <br>
 
-  # 🧠 Algorithms & Programming Logic — Fatec
+  # 🧠 Algorithms & Programming Logic | Fatec
 
-  ### **Practical Exercises, Data Structures, and Computer Science Fundamentals in TypeScript**
+  ### **Practical Exercises, Data Structures, and Fundamentals in TypeScript**
 
   [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
