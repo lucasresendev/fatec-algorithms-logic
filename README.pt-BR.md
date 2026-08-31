@@ -31,6 +31,8 @@ Os algoritmos são desenvolvidos em **TypeScript** sobre o ecossistema **Node.js
 | :-: | :--- | :--- | :--- |
 | 01 | **Média de Notas** | [`src/01-average-student-grade/`](src/01-average-student-grade/) | Tipagem estática (`number`), operadores aritméticos, precedência. |
 | 02 | **Carrinho de Compras** | [`src/02-cart-final-value/`](src/02-cart-final-value/) | Modelagem de dados (`interface`), vetores (`Array`), laço `for`, acumuladores. |
+| 03 | **Soma de Dois Números** | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/) | Ciclo de vida de variáveis (Declaração, Inicialização, Atribuição), Clean Code. |
+| 04 | **Lógica Booleana & Operadores** | [`src/04-boolean-logic/`](src/04-boolean-logic/) | Tipagem estática (`boolean`), operadores lógicos (`&&`, `\|\|`, `!`), avaliação de expressões. |
 
 ---
 
@@ -44,8 +46,18 @@ Os algoritmos são desenvolvidos em **TypeScript** sobre o ecossistema **Node.js
 │   │   ├── README.md
 │   │   └── README.pt-BR.md
 │   │
-│   └── 02-cart-final-value/
-│       ├── CartFinalValue.ts
+│   ├── 02-cart-final-value/
+│   │   ├── CartFinalValue.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   ├── 03-two-numbers-sum/
+│   │   ├── TwoNumbersSum.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   └── 04-boolean-logic/
+│       ├── BooleanLogic.ts
 │       ├── README.md
 │       └── README.pt-BR.md
 │
@@ -72,6 +84,12 @@ npx tsx src/01-average-student-grade/AverageStudentGrade.ts
 
 # Exercício 2: Carrinho de Compras
 npx tsx src/02-cart-final-value/CartFinalValue.ts
+
+# Exercício 3: Soma de Dois Números
+npx tsx src/03-two-numbers-sum/TwoNumbersSum.ts
+
+# Exercício 4: Lógica Booleana
+npx tsx src/04-boolean-logic/BooleanLogic.ts
 ```
 
 > 💡 **Compilação Tradicional:** Para compilar todos os arquivos para JavaScript, execute `npx tsc` (os arquivos serão gerados na pasta `dist/`).
