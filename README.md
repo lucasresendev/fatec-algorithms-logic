@@ -33,6 +33,8 @@ All algorithms are implemented in **TypeScript** on the **Node.js** runtime, foc
 | 02 | **Shopping Cart Calculation** | [`src/02-cart-final-value/`](src/02-cart-final-value/) | Data modeling (`interface`), typed arrays (`Array`), `for` loop, accumulators. |
 | 03 | **Sum of Two Numbers** | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/) | Variable lifecycle (Declaration, Initialization, Assignment), Clean Code. |
 | 04 | **Boolean Logic & Operators** | [`src/04-boolean-logic/`](src/04-boolean-logic/) | Static typing (`boolean`), logical operators (`&&`, `\|\|`, `!`), inline evaluation. |
+| 05 | **Grade Approval & Decision Flow** | [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/) | Control flow (`if`/`else`), ISO/ANSI flowchart, desk checking (RAM trace table), Clean Code. |
+| 06 | **Nested Grades Report** | [`src/06-nested-grades-report/`](src/06-nested-grades-report/) | Nested `interfaces`, 2D `for` loops, `.toFixed(2)` precision, template literals. |
 
 ---
 
@@ -56,8 +58,18 @@ All algorithms are implemented in **TypeScript** on the **Node.js** runtime, foc
 │   │   ├── README.md
 │   │   └── README.pt-BR.md
 │   │
-│   └── 04-boolean-logic/
-│       ├── BooleanLogic.ts
+│   ├── 04-boolean-logic/
+│   │   ├── BooleanLogic.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   ├── 05-grade-approval-flow/
+│   │   ├── GradeApprovalFlow.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   └── 06-nested-grades-report/
+│       ├── NestedGradesReport.ts
 │       ├── README.md
 │       └── README.pt-BR.md
 │
@@ -90,6 +102,12 @@ npx tsx src/03-two-numbers-sum/TwoNumbersSum.ts
 
 # Exercise 4: Boolean Logic
 npx tsx src/04-boolean-logic/BooleanLogic.ts
+
+# Exercise 5: Grade Approval & Decision Flow
+npx tsx src/05-grade-approval-flow/GradeApprovalFlow.ts
+
+# Exercise 6: Nested Grades Report
+npx tsx src/06-nested-grades-report/NestedGradesReport.ts
 ```
 
 > 💡 **Traditional Compilation:** To compile all files to JavaScript, run `npx tsc` (output generated in the `dist/` directory).

@@ -33,6 +33,8 @@ Os algoritmos são desenvolvidos em **TypeScript** sobre o ecossistema **Node.js
 | 02 | **Carrinho de Compras** | [`src/02-cart-final-value/`](src/02-cart-final-value/) | Modelagem de dados (`interface`), vetores (`Array`), laço `for`, acumuladores. |
 | 03 | **Soma de Dois Números** | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/) | Ciclo de vida de variáveis (Declaração, Inicialização, Atribuição), Clean Code. |
 | 04 | **Lógica Booleana & Operadores** | [`src/04-boolean-logic/`](src/04-boolean-logic/) | Tipagem estática (`boolean`), operadores lógicos (`&&`, `\|\|`, `!`), avaliação de expressões. |
+| 05 | **Aprovação de Notas & Fluxo Decisório** | [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/) | Controle de fluxo (`if`/`else`), fluxograma ISO/ANSI, teste de mesa (RAM trace), Clean Code. |
+| 06 | **Relatório com Interfaces Aninhadas** | [`src/06-nested-grades-report/`](src/06-nested-grades-report/) | `Interfaces` aninhadas, laços `for` 2D, precisão com `.toFixed(2)`, template literals. |
 
 ---
 
@@ -56,8 +58,18 @@ Os algoritmos são desenvolvidos em **TypeScript** sobre o ecossistema **Node.js
 │   │   ├── README.md
 │   │   └── README.pt-BR.md
 │   │
-│   └── 04-boolean-logic/
-│       ├── BooleanLogic.ts
+│   ├── 04-boolean-logic/
+│   │   ├── BooleanLogic.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   ├── 05-grade-approval-flow/
+│   │   ├── GradeApprovalFlow.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   │
+│   └── 06-nested-grades-report/
+│       ├── NestedGradesReport.ts
 │       ├── README.md
 │       └── README.pt-BR.md
 │
@@ -90,6 +102,12 @@ npx tsx src/03-two-numbers-sum/TwoNumbersSum.ts
 
 # Exercício 4: Lógica Booleana
 npx tsx src/04-boolean-logic/BooleanLogic.ts
+
+# Exercício 5: Aprovação de Notas & Fluxo Decisório
+npx tsx src/05-grade-approval-flow/GradeApprovalFlow.ts
+
+# Exercício 6: Relatório com Interfaces Aninhadas
+npx tsx src/06-nested-grades-report/NestedGradesReport.ts
 ```
 
 > 💡 **Compilação Tradicional:** Para compilar todos os arquivos para JavaScript, execute `npx tsc` (os arquivos serão gerados na pasta `dist/`).
