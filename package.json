@@ -1,5 +1,21 @@
 {
+  "name": "fatec-algorithms-logic",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/00-consolidated-menu/consolidated_menu.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "audit": "python3 .agent/skills/fatec-alp-coursework/scripts/validate_alp_coursework.py"
+  },
   "dependencies": {
+    "prompt-sync": "^4.2.0",
     "typescript": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "@types/prompt-sync": "^4.2.3",
+    "tsx": "^4.23.15"
   }
 }
