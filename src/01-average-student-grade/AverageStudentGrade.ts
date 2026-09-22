@@ -1,3 +1,8 @@
+/**
+ * Problem Statement:
+ * Calculate the simple arithmetic average of three exam grades using static typing and arithmetic operators.
+ */
+
 let firstGrade: number;
 let secondGrade: number;
 let thirdGrade: number;

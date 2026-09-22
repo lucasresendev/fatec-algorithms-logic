@@ -1,5 +1,7 @@
-// PROBLEM
-// Demonstrate boolean algebra and logical operators (AND, OR, NOT) using boolean variables.
+/**
+ * Problem Statement:
+ * Demonstrate boolean algebra and logical operators (AND, OR, NOT) using boolean variables.
+ */
 
 let a: boolean;
 let b: boolean;

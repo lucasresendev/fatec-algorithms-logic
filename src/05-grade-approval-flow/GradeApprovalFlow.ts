@@ -1,8 +1,10 @@
-// PROBLEM
-// Calculate the arithmetic average of 3 exam grades and evaluate academic status:
-// - Average < 5: Failed (isApproved = false, isOnAcademicProbation = false)
-// - 5 <= Average < 6: Academic Probation / Recovery (isApproved = true, isOnAcademicProbation = true)
-// - Average >= 6: Approved Direct (isApproved = true, isOnAcademicProbation = false)
+/**
+ * Problem Statement:
+ * Calculate the arithmetic average of 3 exam grades and evaluate academic status:
+ * - Average < 5: Failed (isApproved = false, isOnAcademicProbation = false)
+ * - 5 <= Average < 6: Academic Probation / Recovery (isApproved = true, isOnAcademicProbation = true)
+ * - Average >= 6: Approved Direct (isApproved = true, isOnAcademicProbation = false)
+ */
 
 let firstGrade: number;
 let secondGrade: number;

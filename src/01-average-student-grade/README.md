@@ -17,19 +17,7 @@ Calculate the simple arithmetic average from three student exam grades using sta
 
 ## 💻 Source Code
 
-```typescript
-let firstGrade: number;
-let secondGrade: number;
-let thirdGrade: number;
-let averageStudentGrade: number;
-
-firstGrade = 7;
-secondGrade = 8;
-thirdGrade = 5;
-averageStudentGrade = (firstGrade + secondGrade + thirdGrade) / 3;
-
-console.log(averageStudentGrade);
-```
+The implementation is available directly in [`AverageStudentGrade.ts`](AverageStudentGrade.ts).
 
 ---
 

@@ -17,53 +17,7 @@ Calcular o valor final de um carrinho de compras de usuário único contendo mú
 
 ## 💻 Código Fonte
 
-```typescript
-// PROBLEMA
-// Calcular o valor final de um carrinho de compras com 2 itens e um frete fixo de $ 25.00.
-// Explicar passo a passo e seguir princípios de Clean Code.
-
-// Criação de encapsulamento de dados para associar nome do item ao preço
-// Usado PascalCase por se tratar de um tipo / interface
-interface CartItem {
-    name: string;
-    value: number;
-}
-
-// Declarando a variável do carrinho do usuário usando o tipo criado acima
-let singleUserCart: CartItem[];
-// Valor de frete predefinido
-const shippingCost: number = 25;
-// Inicializando variáveis para evitar NULL/undefined e permitir o operador "+="
-let subtotalValue: number = 0;
-let itemsNames: string = "";
-// Variável do total final
-let totalValue: number;
-
-// Definição dos nomes e valores para os itens no carrinho
-singleUserCart = [
-    {name: "Apple", value: 2},
-    {name: "Strawberry", value: 4}
-];
-
-// Laço para extrair cada valor do vetor e acumular em variáveis dedicadas
-// Uso de ".length" para capturar dinamicamente a quantidade de itens no vetor
-for (let i: number = 0; i < singleUserCart.length; i++) {
-    subtotalValue += singleUserCart[i].value;
-    itemsNames += singleUserCart[i].name;
-
-    // Para adicionar a vírgula, compara "i" com (total de itens - 1) para não colocar no último
-    if (i < singleUserCart.length - 1) {
-        itemsNames += ", ";
-    }
-}
-
-// Cálculo do valor total
-totalValue = subtotalValue + shippingCost;
-
-// Exibição final
-console.log("\n=========================" + "\n      Shopping Cart" + "\n=========================\n");
-console.log("Items:    " + itemsNames + ";\nSubtotal: $ " + subtotalValue + ";\nShipping: $ " + shippingCost + ";\nTotal:    $ " + totalValue + ".\n");
-```
+A implementação está disponível diretamente em [`CartFinalValue.ts`](CartFinalValue.ts).
 
 ---
 

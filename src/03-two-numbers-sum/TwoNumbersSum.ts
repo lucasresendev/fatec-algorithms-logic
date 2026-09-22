@@ -1,5 +1,7 @@
-// PROBLEM
-// Demonstrate the variable lifecycle (Declaration, Initialization, Assignment) and Clean Code naming with a two-number sum.
+/**
+ * Problem Statement:
+ * Demonstrate the variable lifecycle (Declaration, Initialization, Assignment) and Clean Code naming with a two-number sum.
+ */
 
 let firstNumber: number;
 let secondNumber: number;

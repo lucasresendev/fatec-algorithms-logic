@@ -1,6 +1,8 @@
-// PROBLEM
-// Calculate the final value of a shopping cart with 2 items and a fixed shipping fee of $25.00.
-// Explain step-by-step and follow Clean Code principles.
+/**
+ * Problem Statement:
+ * Calculate the final value of a shopping cart with 2 items and a fixed shipping fee of $25.00.
+ * Explain step-by-step and follow Clean Code principles.
+ */
 
 // Create data encapsulation to associate item name with price
 // PascalCase is used because it represents a type / interface

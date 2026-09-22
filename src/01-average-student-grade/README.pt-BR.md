@@ -17,19 +17,7 @@ Calcular a média aritmética simples a partir de três notas de um estudante ut
 
 ## 💻 Código Fonte
 
-```typescript
-let firstGrade: number;
-let secondGrade: number;
-let thirdGrade: number;
-let averageStudentGrade: number;
-
-firstGrade = 7;
-secondGrade = 8;
-thirdGrade = 5;
-averageStudentGrade = (firstGrade + secondGrade + thirdGrade) / 3;
-
-console.log(averageStudentGrade);
-```
+A implementação está disponível diretamente em [`AverageStudentGrade.ts`](AverageStudentGrade.ts).
 
 ---
 

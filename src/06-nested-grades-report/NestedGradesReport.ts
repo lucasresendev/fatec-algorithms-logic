@@ -1,6 +1,8 @@
-// PROBLEM
-// Generate an academic report for multiple students across multiple subjects using nested interfaces,
-// calculating individual averages with toFixed(2) and displaying formatted results.
+/**
+ * Problem Statement:
+ * Generate an academic report for multiple students across multiple subjects using nested interfaces,
+ * calculating individual averages with toFixed(2) and displaying formatted results.
+ */
 
 interface SubjectGrade {
     subject: string;
