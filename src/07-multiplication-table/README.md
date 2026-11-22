@@ -3,15 +3,18 @@
   🇧🇷 **[Versão em Português](README.pt-BR.md)**
   <br>
 
-  # ✖️ Multiplication Table with for Loop (`MultiplicationTable.ts`)
+  # ✖️ Multiplication Table with `for` (`MultiplicationTable.ts`)
 
 </div>
+
+> **Origin:** Class 05 (`for` Loop, Terminal Input, and Functions Intro)  
+> **Topic:** Counted `for` Loop, `prompt-sync` Input, and Direct vs. Intermediate Calculation
 
 ---
 
 ## 🎯 Problem Statement
 
-Prompt the user for a numerical input between 0 and 10 and display its complete multiplication table (from 0 to 10) using a counted `for` loop, comparing the professor's direct inline calculation with my exploratory approach in class using an intermediate variable.
+In this exercise, I read an integer from the terminal and printed its multiplication table from 0 to 10 using a `for` loop. I kept both ways we saw in class: option 1 multiplies inline inside `console.log()` like the professor did, and option 2 stores the product in an intermediate variable first, which was my first attempt in class.
 
 ---
 
@@ -46,7 +49,7 @@ Simulation for input `inputNumber = 7` (Option 1 - Direct Calculation):
 
 ## 💻 Source Code
 
-The implementation is available directly in [`MultiplicationTable.ts`](MultiplicationTable.ts).
+The full implementation is available in [MultiplicationTable.ts](MultiplicationTable.ts).
 
 ---
 
@@ -78,9 +81,9 @@ Table of 7:
 
 ## 💡 Key Concepts Applied
 
-- **Counted Repetition (`for` loop):** Using a 3-part loop structure (counter initialization, termination condition, and step incrementation).
-- **Comparison of Approaches:** Direct evaluation inside output (`inputNumber * i`) vs. storing in an intermediate variable (`intermediateResult = inputNumber * i`).
-- **3-Phase Variable Lifecycle:** Clean separation between Declaration, Initialization, and Processing.
+- **Counted `for` Loop:** Putting initialization (`i = 0`), stop condition (`i <= 10`), and step (`i++`) in one header.
+- **Comparing Two Approaches:** Computing `inputNumber * i` directly inside `console.log()` vs. saving it in `intermediateResult` first.
+- **Terminal Input (`prompt-sync`):** Reading keyboard input as text and converting it with `Number()`.
 
 ---
 

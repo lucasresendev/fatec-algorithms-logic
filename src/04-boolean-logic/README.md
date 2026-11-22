@@ -3,21 +3,24 @@
   🇧🇷 **[Versão em Português](README.pt-BR.md)**
   <br>
 
-  # ⚡ Boolean Logic & Operators (`BooleanLogic.ts`)
+  # ⚡ Boolean Logic and Operators (`BooleanLogic.ts`)
 
 </div>
+
+> **Origin:** Class 03 (Data Types, Variables, and Operators)  
+> **Topic:** Boolean Variables and Logical Operators (`&&`, `||`, `!`)
 
 ---
 
 ## 🎯 Problem Statement
 
-Evaluate and print the truth values of logical operations (AND, OR, NOT) using boolean variables in TypeScript.
+In this exercise, I tested boolean variables (`true` and `false`) with the three core logical operators (`&&`, `||`, and `!`) and printed each result directly in the terminal to verify how truth tables behave in TypeScript.
 
 ---
 
 ## 💻 Source Code
 
-The implementation is available directly in [`BooleanLogic.ts`](BooleanLogic.ts).
+The full implementation is available in [BooleanLogic.ts](BooleanLogic.ts).
 
 ---
 
@@ -34,11 +37,10 @@ If 'b' is inverted, 'a' or 'b' is true? false
 
 ## 💡 Key Concepts Applied
 
-- **Static Typing (`boolean`):** Explicit declaration of boolean primitive variables (`true` or `false`).
-- **Logical Conjunction (`&&` - AND):** Evaluates to `true` only if both expressions evaluate to `true`.
-- **Logical Disjunction (`||` - OR):** Evaluates to `true` if at least one expression evaluates to `true`.
-- **Logical Negation (`!` - NOT):** Inverts the truth value of a variable (`!b` inverts `true` to `false`).
-- **Inline Expression Evaluation:** Computing boolean operations inside parentheses directly within `console.log()` output.
+- **Boolean Type (`boolean`):** Storing true or false states explicitly.
+- **AND (`&&`):** Returns `true` only when both sides are `true`.
+- **OR (`||`):** Returns `true` if at least one side is `true`.
+- **NOT (`!`):** Flips `true` to `false` and `false` to `true` (so `!b` turns `true` into `false`).
 
 ---
 

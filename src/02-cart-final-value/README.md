@@ -7,17 +7,20 @@
 
 </div>
 
+> **Origin:** Class 04 (Operators, Expressions, and Sequential Logic)  
+> **Topic:** `interface` Objects, Typed Arrays (`CartItem[]`), and Price Accumulator
+
 ---
 
 ## 🎯 Problem Statement
 
-Calculate the final total of a single-user shopping cart with multiple items and a fixed shipping fee ($25.00), practicing data modeling, array traversal, and Clean Code principles.
+In this exercise, I modeled a small shopping cart with multiple items and a fixed `$25.00` shipping fee. I looped through the items to accumulate the subtotal, joined their names cleanly without a trailing comma, and printed the final total.
 
 ---
 
 ## 💻 Source Code
 
-The implementation is available directly in [`CartFinalValue.ts`](CartFinalValue.ts).
+The full implementation is available in [CartFinalValue.ts](CartFinalValue.ts).
 
 ---
 
@@ -38,11 +41,10 @@ Total:    $ 31.
 
 ## 💡 Key Concepts Applied
 
-- **Data Modeling with `interface`:** Defining `CartItem` to encapsulate properties (`name: string` and `value: number`), similar to a `struct` in C.
-- **Typed Arrays (`CartItem[]`):** Storing a collection of structured objects.
-- **Array Iteration (`for` + `.length`):** Dynamically processing elements based on array length.
-- **Accumulator Variables:** Adding item prices (`subtotalValue += item.value`) and joining strings (`itemsNames`).
-- **Formatting Logic:** Conditional comma appending (`i < singleUserCart.length - 1`) to format item lists cleanly without a trailing comma.
+- **Modeling Data with `interface`:** Creating a `CartItem` type (`name: string` and `value: number`), similar to a `struct` in C.
+- **Typed Arrays (`CartItem[]`):** Keeping all cart items together in one typed list.
+- **Accumulator Variables:** Adding item prices (`subtotalValue += item.value`) and building the formatted item names string in one loop.
+- **Comma Formatting:** Checking `i < singleUserCart.length - 1` so there is no extra comma after the last item.
 
 ---
 

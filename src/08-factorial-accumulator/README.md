@@ -7,11 +7,14 @@
 
 </div>
 
+> **Origin:** Class 05 (`for` Loop, Terminal Input, and Functions Intro)  
+> **Topic:** Multiplicative Accumulator (`n!`) and Comparing Three `for` Loop Directions
+
 ---
 
 ## 🎯 Problem Statement
 
-Calculate the factorial of a non-negative integer ($n!$), comparing the professor's descending loop ($n$ down to $1$) with my ascending loop ($1$ up to $n$) and my alternative subtraction iteration ($(inputNumber - i)$ starting at $i = 0$).
+In this exercise, I wrote a factorial calculator (`n!`) comparing three different `for` loop styles: the professor's descending loop (`n` down to `1`), my ascending loop (`1` up to `n`), and a second approach I tried in class multiplying by `(inputNumber - i)` starting at `i = 0`.
 
 ---
 
@@ -51,7 +54,7 @@ Simulation for input `inputNumber = 4` (Option 1 - Descending approach):
 
 ## 💻 Source Code
 
-The implementation is available directly in [`FactorialAccumulator.ts`](FactorialAccumulator.ts).
+The full implementation is available in [FactorialAccumulator.ts](FactorialAccumulator.ts).
 
 ---
 
@@ -80,11 +83,11 @@ Final result of 5! = 120
 
 ## 💡 Key Concepts Applied
 
-- **Multiplicative Accumulator:** Accumulator variables multiplying intermediate results must be initialized with `1` (neutral element of multiplication).
-- **Compared Approaches:**
-  - **1 - Descending (Professor):** Iterates from `inputNumber` down to `1` using `i--`, computing `factorialResult *= i`.
-  - **2 - Ascending (My 1st approach):** Iterates from `1` up to `inputNumber` using `i++`, computing `factorialResult *= i`.
-  - **3 - Offset Subtraction (My 2nd approach):** Iterates from `0` to `< inputNumber`, accumulating `factorialResult *= (inputNumber - i)`.
+- **Initializing at `1`:** A multiplication accumulator has to start at `1` (starting at `0` would keep the result at `0` forever).
+- **Three Loop Strategies:**
+  - **1 - Descending (Professor):** Loops from `inputNumber` down to `1` (`i--`).
+  - **2 - Ascending (My 1st try):** Loops from `1` up to `inputNumber` (`i++`).
+  - **3 - Offset Subtraction (My 2nd try):** Loops from `0` to `< inputNumber`, multiplying by `(inputNumber - i)`.
 
 ---
 

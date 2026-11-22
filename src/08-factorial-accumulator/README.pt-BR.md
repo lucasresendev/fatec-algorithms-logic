@@ -7,11 +7,14 @@
 
 </div>
 
+> **Origem:** Aula 05 (Repetição com `for`, Entrada de Dados e Introdução a Funções)  
+> **Tópico:** Acumulador Multiplicativo (`n!`) e Comparação de Três Formas de Percorrer o `for`
+
 ---
 
-## 🎯 Enunciado
+## 🎯 Enunciado do Problema
 
-Calcular o fatorial de um número inteiro não-negativo ($n!$), comparando a repetição decrescente ensinada pelo professor ($n$ até $1$) com a repetição crescente que desenvolvi em aula ($1$ até $n$) e a minha alternativa com subtração direta ($(inputNumber - i)$ começando em $i = 0$).
+Neste exercício, escrevi uma calculadora de fatorial (`n!`) comparando três jeitos de montar o `for`: a contagem decrescente que o professor mostrou (`n` até `1`), a contagem crescente que fiz primeiro (`1` até `n`) e uma segunda alternativa que testei em sala multiplicando por `(inputNumber - i)` a partir de `i = 0`.
 
 ---
 
@@ -49,9 +52,9 @@ Simulação para a entrada `inputNumber = 4` (Opção 1 - Abordagem Decrescente)
 
 ---
 
-## 💻 Código Fonte
+## 💻 Código-Fonte
 
-A implementação está disponível diretamente em [`FactorialAccumulator.ts`](FactorialAccumulator.ts).
+O código completo está em [FactorialAccumulator.ts](FactorialAccumulator.ts).
 
 ---
 
@@ -78,13 +81,13 @@ Final result of 5! = 120
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Acumulador Multiplicativo:** Variáveis que acumulam multiplicações sucessivas devem ser inicializadas com `1` (elemento neutro da multiplicação).
-- **Abordagens Comparadas:**
-  - **1 - Decrescente (Professor):** Itera de `inputNumber` até `1` decrementando com `i--`, calculando `factorialResult *= i`.
-  - **2 - Crescente (Meu 1º jeito):** Itera de `1` até `inputNumber` incrementando com `i++`, calculando `factorialResult *= i`.
-  - **3 - Com Subtração (Meu 2º jeito):** Itera de `0` até `< inputNumber`, acumulando `factorialResult *= (inputNumber - i)`.
+- **Começar em `1`:** O acumulador de multiplicação precisa iniciar em `1` (se começasse em `0`, o produto ficaria zerado até o fim).
+- **Três Estratégias no `for`:**
+  - **1 - Decrescente (Professor):** Vai de `inputNumber` até `1` usando `i--`.
+  - **2 - Crescente (Meu 1º jeito):** Vai de `1` até `inputNumber` usando `i++`.
+  - **3 - Com Subtração (Meu 2º jeito):** Vai de `0` até `< inputNumber`, multiplicando por `(inputNumber - i)`.
 
 ---
 

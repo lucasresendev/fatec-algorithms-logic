@@ -7,17 +7,20 @@
 
 </div>
 
+> **Origin:** Class 03 (Data Types, Variables, and Basic I/O)  
+> **Topic:** 3-Phase Variable Lifecycle (Declaration, Initialization, and Assignment)
+
 ---
 
 ## 🎯 Problem Statement
 
-Demonstrate the three stages of the variable lifecycle (Declaration, Initialization, and Assignment) and the application of Clean Code naming conventions while calculating the sum of two numbers in TypeScript.
+In this exercise, I practiced the 3-step variable lifecycle emphasized in class (Declaration, Initialization, and Assignment) while calculating the sum of two numbers with clear variable names in TypeScript.
 
 ---
 
 ## 💻 Source Code
 
-The implementation is available directly in [`TwoNumbersSum.ts`](TwoNumbersSum.ts).
+The full implementation is available in [TwoNumbersSum.ts](TwoNumbersSum.ts).
 
 ---
 
@@ -31,12 +34,11 @@ The implementation is available directly in [`TwoNumbersSum.ts`](TwoNumbersSum.t
 
 ## 💡 Key Concepts Applied
 
-- **Variable Lifecycle:**
-  - **Declaration:** Defining the variable identifier and static type (`number`).
-  - **Initialization:** Setting a default initial value (`0`) to avoid undefined states in memory.
-  - **Assignment:** Assigning values to be calculated (`7` and `9`).
-- **Semantic Naming (Clean Code):** Using clear, descriptive variable names (`firstNumber`, `secondNumber`, `sumResult`) instead of cryptic shorthands (`n1`, `n2`, `n3`).
-- **Arithmetic Operation & Output:** Computing the addition using the `+` operator and printing the result with `console.log()`.
+- **3-Phase Variable Lifecycle:**
+  - **Declaration:** Defining the variable name and static type (`number`).
+  - **Initialization:** Giving every variable a safe initial value (`0`) so nothing stays `undefined`.
+  - **Assignment:** Storing the real numbers (`7` and `9`) and computing their sum.
+- **Clear Naming:** Using descriptive names (`firstNumber`, `secondNumber`, `sumResult`) instead of short letters (`n1`, `n2`, `n3`).
 
 ---
 

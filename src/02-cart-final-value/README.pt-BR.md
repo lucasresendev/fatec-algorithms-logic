@@ -7,17 +7,20 @@
 
 </div>
 
----
-
-## 🎯 Enunciado
-
-Calcular o valor final de um carrinho de compras de usuário único contendo múltiplos itens e taxa fixa de frete ($ 25,00), praticando modelagem de dados, iteração de arrays e boas práticas de Clean Code.
+> **Origem:** Aula 04 (Operadores, Expressões e Algoritmos Sequenciais)  
+> **Tópico:** Objetos com `interface`, Array Tipado (`CartItem[]`) e Acumulador de Preços
 
 ---
 
-## 💻 Código Fonte
+## 🎯 Enunciado do Problema
 
-A implementação está disponível diretamente em [`CartFinalValue.ts`](CartFinalValue.ts).
+Neste exercício, modelei um carrinho de compras simples com vários produtos e um frete fixo de `$25.00`. Percorri os itens para somar o subtotal, juntei os nomes sem deixar vírgula sobrando no final e exibi o valor total.
+
+---
+
+## 💻 Código-Fonte
+
+O código completo está em [CartFinalValue.ts](CartFinalValue.ts).
 
 ---
 
@@ -36,13 +39,12 @@ Total:    $ 31.
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Modelagem de Dados com `interface`:** Definição de `CartItem` para agrupar propriedades (`name: string` e `value: number`), similar a uma `struct` em C.
-- **Vetores Tipados (`CartItem[]`):** Armazenamento de coleções de objetos tipados.
-- **Iteração de Arrays (`for` + `.length`):** Processamento dinâmico baseado no tamanho do vetor.
-- **Variáveis Acumuladoras:** Soma cumulativa de valores (`subtotalValue += item.value`) e concatenação de textos (`itemsNames`).
-- **Lógica de Formatação:** Inserção condicional de vírgula (`i < singleUserCart.length - 1`) para evitar vírgula residual no último elemento.
+- **Modelagem com `interface`:** Criar o tipo `CartItem` (`name: string` e `value: number`), parecido com uma `struct` em C.
+- **Arrays Tipados (`CartItem[]`):** Guardar todos os produtos do carrinho em uma única lista tipada.
+- **Variáveis Acumuladoras:** Somar os preços (`subtotalValue += item.value`) e montar o texto com os nomes dos itens na mesma repetição.
+- **Formatação de Vírgulas:** Checar `i < singleUserCart.length - 1` para não sobrar vírgula depois do último produto.
 
 ---
 

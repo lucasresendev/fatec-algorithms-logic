@@ -7,17 +7,20 @@
 
 </div>
 
+> **Origin:** Class 02 (Algorithmic Representation and First TypeScript Code)  
+> **Topic:** Typed Variables (`number`), Operator Precedence, and Console Output
+
 ---
 
 ## 🎯 Problem Statement
 
-Calculate the simple arithmetic average from three student exam grades using static typing and arithmetic operators.
+In this first exercise, I wrote a simple script to compute the average of three student grades using explicit `number` typing and arithmetic operators in TypeScript.
 
 ---
 
 ## 💻 Source Code
 
-The implementation is available directly in [`AverageStudentGrade.ts`](AverageStudentGrade.ts).
+The full implementation is available in [AverageStudentGrade.ts](AverageStudentGrade.ts).
 
 ---
 
@@ -31,9 +34,9 @@ The implementation is available directly in [`AverageStudentGrade.ts`](AverageSt
 
 ## 💡 Key Concepts Applied
 
-- **Static Typing (`number`):** Explicit declaration of numerical variables in TypeScript.
-- **Operator Precedence:** Using parentheses `(firstGrade + secondGrade + thirdGrade)` to force addition before the division by 3.
-- **Output:** Printing calculated values to the terminal with `console.log()`.
+- **Static Typing (`number`):** Declaring every numeric variable explicitly with TypeScript types.
+- **Operator Precedence:** Wrapping `(firstGrade + secondGrade + thirdGrade)` in parentheses so the sum happens before dividing by `3`.
+- **Terminal Output:** Displaying the final result with `console.log()`.
 
 ---
 

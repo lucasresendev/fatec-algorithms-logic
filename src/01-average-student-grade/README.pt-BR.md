@@ -7,17 +7,20 @@
 
 </div>
 
----
-
-## 🎯 Enunciado
-
-Calcular a média aritmética simples a partir de três notas de um estudante utilizando tipagem estática e operadores aritméticos.
+> **Origem:** Aula 02 (Representação de Algoritmos e Primeiro Código em TypeScript)  
+> **Tópico:** Variáveis Tipadas (`number`), Precedência de Operadores e Saída no Console
 
 ---
 
-## 💻 Código Fonte
+## 🎯 Enunciado do Problema
 
-A implementação está disponível diretamente em [`AverageStudentGrade.ts`](AverageStudentGrade.ts).
+Neste primeiro exercício, escrevi um script simples para calcular a média aritmética de três notas usando tipagem explícita (`number`) e operadores aritméticos em TypeScript.
+
+---
+
+## 💻 Código-Fonte
+
+O código completo está em [AverageStudentGrade.ts](AverageStudentGrade.ts).
 
 ---
 
@@ -29,11 +32,11 @@ A implementação está disponível diretamente em [`AverageStudentGrade.ts`](Av
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Tipagem Estática (`number`):** Declaração explícita de variáveis numéricas em TypeScript.
-- **Precedência de Operadores:** Uso de parênteses `(firstGrade + secondGrade + thirdGrade)` para priorizar a soma antes da divisão por 3.
-- **Saída de Dados:** Exibição do valor calculado no terminal via `console.log()`.
+- **Tipagem Estática (`number`):** Declarar cada variável numérica explicitamente com tipos do TypeScript.
+- **Precedência de Operadores:** Usar parênteses em `(firstGrade + secondGrade + thirdGrade)` para somar as notas antes de dividir por `3`.
+- **Saída no Terminal:** Exibir o valor calculado com `console.log()`.
 
 ---
 

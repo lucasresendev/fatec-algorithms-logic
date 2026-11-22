@@ -3,24 +3,27 @@
   🇧🇷 **[Versão em Português](README.pt-BR.md)**
   <br>
 
-  # 📑 Academic Grades Report with Nested Interfaces (`NestedGradesReport.ts`)
+  # 📑 Nested Grades Report (`NestedGradesReport.ts`)
 
 </div>
+
+> **Origin:** Class 04 (Personal Self-Study Extension)  
+> **Topic:** Nested `interface` Types, 2D `for` Loops, `.toFixed(2)`, and Template Literals
 
 ---
 
 ## 🎯 Problem Statement
 
-Model and generate an academic performance report for multiple students across multiple courses using nested TypeScript interfaces, dynamic accumulator loops, numeric decimal formatting, and multi-line template literals.
+In this extra exercise, I built a student report covering multiple students and multiple subjects using nested TypeScript interfaces, nested `for` loops, `.toFixed(2)` formatting, and multi-line template strings.
 
 > [!NOTE] 💡 Personal Self-Study
-> I developed this exercise on my own based on prior personal studies. In class, the professor hadn't introduced interfaces, typed arrays, or nested loops yet.
+> I wrote this exercise on my own based on things I had already been studying outside class. At this point in the semester, the professor had not introduced interfaces, typed arrays, or nested loops yet.
 
 ---
 
 ## 💻 Source Code
 
-The implementation is available directly in [`NestedGradesReport.ts`](NestedGradesReport.ts).
+The full implementation is available in [NestedGradesReport.ts](NestedGradesReport.ts).
 
 ---
 
@@ -49,10 +52,10 @@ Subjects and Grades:
 
 ## 💡 Key Concepts Applied
 
-- **Interface Composition:** Nesting `SubjectGrade[]` within the `Student` interface for structured relational data modeling in TypeScript.
-- **Nested `for` Loops:** Outer loop iterates over each student; inner loops traverse individual course grades for accumulation and formatting.
-- **Decimal Precision (`.toFixed(2)`):** Formatting floating-point numbers to two decimal places for consistent academic reports.
-- **Template Literals (Backticks `` ` ``):** Interpolating variables (`${variable}`) and formatting multi-line output cleanly without manual concatenation operators.
+- **Nested Interfaces:** Putting `SubjectGrade[]` inside the `Student` interface so every student carries their own list of subjects and grades.
+- **Nested `for` Loops:** The outer loop walks through each student while the inner loops sum and print that student's grades.
+- **Decimal Formatting (`.toFixed(2)`):** Rounding averages to two decimal places for clean terminal output.
+- **Template Literals:** Using backticks and `${variable}` to build multi-line text without long `+` chains.
 
 ---
 

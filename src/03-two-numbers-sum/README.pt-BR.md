@@ -7,17 +7,20 @@
 
 </div>
 
----
-
-## 🎯 Enunciado
-
-Demonstrar as três etapas do ciclo de vida de variáveis (Declaração, Inicialização e Atribuição) e a aplicação de boas práticas de Clean Code no cálculo da soma entre dois números em TypeScript.
+> **Origem:** Aula 03 (Tipos de Dados, Variáveis e Entrada/Saída)  
+> **Tópico:** Ciclo de Vida em 3 Fases (Declaração, Inicialização e Atribuição)
 
 ---
 
-## 💻 Código Fonte
+## 🎯 Enunciado do Problema
 
-A implementação está disponível diretamente em [`TwoNumbersSum.ts`](TwoNumbersSum.ts).
+Neste exercício, pratiquei o ciclo de vida das variáveis em três etapas que vimos em sala (Declaração, Inicialização e Atribuição), calculando a soma de dois números com nomes descritivos em TypeScript.
+
+---
+
+## 💻 Código-Fonte
+
+O código completo está em [TwoNumbersSum.ts](TwoNumbersSum.ts).
 
 ---
 
@@ -29,14 +32,13 @@ A implementação está disponível diretamente em [`TwoNumbersSum.ts`](TwoNumbe
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Ciclo de Vida das Variáveis:**
-  - **Declaração:** Definição do identificador e do tipo estático (`number`).
-  - **Inicialização:** Atribuição de valor inicial padrão (`0`) para evitar estados indefinidos em memória.
-  - **Atribuição:** Carga dos valores a serem processados (`7` e `9`).
-- **Nomenclatura Semântica (Clean Code):** Uso de nomes claros e descritivos (`firstNumber`, `secondNumber`, `sumResult`) em substituição a siglas genéricas (`n1`, `n2`, `n3`).
-- **Operação Aritmética e Saída:** Soma dos valores com o operador `+` e exibição do resultado no terminal via `console.log()`.
+- **Ciclo de Vida em 3 Fases:**
+  - **Declaração:** Definir o nome e o tipo estático (`number`) da variável.
+  - **Inicialização:** Atribuir um valor inicial seguro (`0`) para não deixar nada como `undefined`.
+  - **Atribuição:** Guardar os números reais (`7` e `9`) e calcular a soma.
+- **Nomes Claros:** Usar identificadores legíveis (`firstNumber`, `secondNumber`, `sumResult`) no lugar de abreviações (`n1`, `n2`, `n3`).
 
 ---
 

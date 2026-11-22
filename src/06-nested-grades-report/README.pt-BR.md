@@ -3,24 +3,27 @@
   🇺🇸 **[English Version](README.md)**
   <br>
 
-  # 📑 Relatório de Notas com Interfaces Aninhadas (`NestedGradesReport.ts`)
+  # 📑 Relatório de Notas Aninhadas (`NestedGradesReport.ts`)
 
 </div>
+
+> **Origem:** Aula 04 (Extensão de Estudo Próprio)  
+> **Tópico:** Interfaces Aninhadas, Repetições `for` Aninhadas, `.toFixed(2)` e Template Strings
 
 ---
 
 ## 🎯 Enunciado do Problema
 
-Modelar e gerar um relatório acadêmico para múltiplos alunos e suas respectivas disciplinas utilizando interfaces TypeScript aninhadas, repetições de acumulação aninhadas, formatação decimal e template literals em múltiplas linhas.
+Neste exercício extra, montei um boletim para vários alunos e várias matérias usando interfaces aninhadas em TypeScript, repetições `for` dentro de `for`, formatação com `.toFixed(2)` e template strings de várias linhas.
 
-> [!NOTE] 💡 Meu Estudo Prévio (Prática Pessoal)
-> Desenvolvi este exercício por conta própria usando conhecimentos prévios. Em aula, o professor ainda não tinha passado interfaces, arrays ou repetições aninhadas.
+> [!NOTE] 💡 Estudo Próprio
+> Fiz esse exercício por conta própria com base no que eu já vinha estudando por fora. Nessa altura do semestre, o professor ainda não tinha apresentado interfaces, arrays tipados nem repetições aninhadas.
 
 ---
 
-## 💻 Código Fonte
+## 💻 Código-Fonte
 
-A implementação está disponível diretamente em [`NestedGradesReport.ts`](NestedGradesReport.ts).
+O código completo está em [NestedGradesReport.ts](NestedGradesReport.ts).
 
 ---
 
@@ -47,12 +50,12 @@ Subjects and Grades:
 
 ---
 
-## 💡 Conceitos Principais Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Composição de Interfaces:** Aninhamento de um array `SubjectGrade[]` dentro do tipo `Student`, permitindo modelagem de dados estruturada e tipada.
-- **Repetições Aninhadas (`for` duplo):** O loop externo percorre cada estudante, enquanto as repetições internas acumulam notas e formatam linhas da tabela.
-- **Formatação Numérica (`.toFixed(2)`):** Padronização de casas decimais para valores monetários ou notas escolares.
-- **Template Literals (Interpolação com Crases `` ` ``):** Construção de textos complexos e legíveis com `${variavel}` e suporte nativo a quebra de linhas.
+- **Interfaces Aninhadas:** Colocar `SubjectGrade[]` dentro da interface `Student` para que cada aluno carregue sua própria lista de matérias e notas.
+- **Repetições `for` Aninhadas:** O `for` externo percorre cada aluno e os internos somam e listam as notas dele.
+- **Formatação Decimal (`.toFixed(2)`):** Fixar duas casas decimais ao exibir a média final.
+- **Template Strings:** Usar crases e `${variavel}` para montar textos de várias linhas sem concatenar tudo com `+`.
 
 ---
 

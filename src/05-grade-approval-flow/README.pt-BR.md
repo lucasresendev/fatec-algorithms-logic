@@ -3,18 +3,21 @@
   🇺🇸 **[English Version](README.md)**
   <br>
 
-  # ⚖️ Aprovação de Notas & Fluxo Decisório (`GradeApprovalFlow.ts`)
+  # ⚖️ Aprovação de Notas e Fluxo Decisório (`GradeApprovalFlow.ts`)
 
 </div>
+
+> **Origem:** Aula 04 (Estruturas Condicionais, Fluxogramas e Teste de Mesa)  
+> **Tópico:** Condicionais Compostas (`if`/`else`), Fluxogramas ISO/ANSI e Teste de Mesa
 
 ---
 
 ## 🎯 Enunciado do Problema
 
-Calcular a média aritmética de três notas e determinar a situação acadêmica do aluno utilizando estruturas condicionais compostas:
+Neste exercício, calculei a média aritmética de três notas e usei condicionais `if`/`else` para definir a situação do aluno:
 - **Média < 5:** Reprovado (`isApproved = false`, `isOnAcademicProbation = false`).
-- **5 <= Média < 6:** Recuperação / Avaliação Especial (`isApproved = true`, `isOnAcademicProbation = true`).
-- **Média >= 6:** Aprovado Direto (`isApproved = true`, `isOnAcademicProbation = false`).
+- **5 <= Média < 6:** Aprovado com recuperação (`isApproved = true`, `isOnAcademicProbation = true`).
+- **Média >= 6:** Aprovado direto (`isApproved = true`, `isOnAcademicProbation = false`).
 
 ---
 
@@ -46,7 +49,7 @@ flowchart TD
 
 ## 🧪 Teste de Mesa (Rastreamento na Memória RAM)
 
-Simulação manual passo a passo do estado das variáveis na memória RAM para verificação do algoritmo antes da execução:
+Simulação manual passo a passo para conferir o valor de cada variável antes de rodar o código:
 
 | Momento da Execução | `firstGrade` | `secondGrade` | `thirdGrade` | `averageStudentGrade` | `isApproved` | `isOnAcademicProbation` |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -58,9 +61,9 @@ Simulação manual passo a passo do estado das variáveis na memória RAM para v
 
 ---
 
-## 💻 Código Fonte
- 
-A implementação completa em TypeScript está disponível em [`GradeApprovalFlow.ts`](GradeApprovalFlow.ts).
+## 💻 Código-Fonte
+
+O código completo está em [GradeApprovalFlow.ts](GradeApprovalFlow.ts).
 
 ---
 
@@ -74,13 +77,12 @@ On Probation: false
 
 ---
 
-## 💡 Conceitos Principais Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Desvios Condicionais (`if` / `else`):** Controle do fluxo de execução com base no resultado booleano de expressões lógicas.
-- **Modelagem Visual com Losangos:** Representação formal de tomadas de decisão na norma ISO/ANSI (`>= 5` e posterior verificação `< 6`).
-- **Teste de Mesa e Depuração:** Rastreamento do ciclo de vida das variáveis na RAM para localização preventiva de bugs.
-- **Clean Code em Nomenclaturas Booleanas:** Utilização de prefixos verbais semânticos (`isApproved`, `isOnAcademicProbation`).
-- **Atribuição Booleana Direta:** Para condicionais binárias simples (como `isApproved = average >= 6`), a atribuição direta do resultado da comparação elimina blocos `if / else` redundantes.
+- **Desvios Condicionais (`if` / `else`):** Separar os caminhos do algoritmo conforme o resultado booleano das comparações.
+- **Losangos de Decisão (ISO/ANSI):** Desenhar as decisões encadeadas (`>= 5` seguido de `< 6`) antes de programar.
+- **Teste de Mesa:** Acompanhar cada mudança de variável manualmente para pegar erros de lógica cedo.
+- **Nomenclatura Booleana:** Usar prefixos com `is` (`isApproved`, `isOnAcademicProbation`) para facilitar a leitura das condições.
 
 ---
 

@@ -3,15 +3,18 @@
   🇺🇸 **[English Version](README.md)**
   <br>
 
-  # ✖️ Tabuada com Repetição for (`MultiplicationTable.ts`)
+  # ✖️ Tabuada com `for` (`MultiplicationTable.ts`)
 
 </div>
 
+> **Origem:** Aula 05 (Repetição com `for`, Entrada de Dados e Introdução a Funções)  
+> **Tópico:** Repetição Contada com `for`, Entrada com `prompt-sync` e Cálculo Direto vs. Variável Intermediária
+
 ---
 
-## 🎯 Enunciado
+## 🎯 Enunciado do Problema
 
-Solicitar ao usuário um número inteiro de 0 a 10 e exibir a respectiva tabuada completa (de 0 a 10) utilizando uma estrutura de repetição contada `for`, comparando o cálculo direto em linha demonstrado pelo professor com a minha abordagem inicial em aula utilizando variável intermediária.
+Neste exercício, li um número inteiro pelo terminal e imprimi a tabuada dele de 0 a 10 usando `for`. Mantive as duas formas que vimos em aula: a opção 1 faz a conta direto no `console.log()` como o professor mostrou, e a opção 2 guarda o resultado em uma variável intermediária antes de exibir, que foi o jeito que fiz na minha primeira tentativa em sala.
 
 ---
 
@@ -44,9 +47,9 @@ Simulação para a entrada `inputNumber = 7` (Opção 1 - Cálculo Direto):
 
 ---
 
-## 💻 Código Fonte
+## 💻 Código-Fonte
 
-A implementação está disponível diretamente em [`MultiplicationTable.ts`](MultiplicationTable.ts).
+O código completo está em [MultiplicationTable.ts](MultiplicationTable.ts).
 
 ---
 
@@ -76,11 +79,11 @@ Table of 7:
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Repetição Contada (`for`):** Estrutura em três partes (inicialização do contador, condição lógica de parada e incremento a cada passo).
-- **Comparação de Abordagens:** Avaliação direta dentro da saída (`inputNumber * i`) versus armazenamento em variável de apoio (`intermediateResult = inputNumber * i`).
-- **Ciclo de Variáveis em 3 Fases:** Rigor no padrão Fatec (Declaração $\rightarrow$ Inicialização $\rightarrow$ Processamento).
+- **Repetição Contada (`for`):** Reunir inicialização (`i = 0`), condição de parada (`i <= 10`) e incremento (`i++`) no mesmo cabeçalho.
+- **Comparação de Abordagens:** Calcular `inputNumber * i` direto no `console.log()` versus guardar antes em `intermediateResult`.
+- **Entrada no Terminal (`prompt-sync`):** Ler texto digitado no teclado e converter para número com `Number()`.
 
 ---
 

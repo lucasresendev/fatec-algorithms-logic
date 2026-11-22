@@ -3,21 +3,24 @@
   🇺🇸 **[English Version](README.md)**
   <br>
 
-  # ⚡ Lógica Booleana & Operadores (`BooleanLogic.ts`)
+  # ⚡ Lógica Booleana e Operadores (`BooleanLogic.ts`)
 
 </div>
 
----
-
-## 🎯 Enunciado
-
-Avaliar e exibir os resultados de operações lógicas fundamentais (E, OU, NÃO) utilizando variáveis booleanas com tipagem estática em TypeScript.
+> **Origem:** Aula 03 (Tipos de Dados, Variáveis e Operadores)  
+> **Tópico:** Variáveis Booleanas e Operadores Lógicos (`&&`, `||`, `!`)
 
 ---
 
-## 💻 Código Fonte
+## 🎯 Enunciado do Problema
 
-A implementação está disponível diretamente em [`BooleanLogic.ts`](BooleanLogic.ts).
+Neste exercício, testei variáveis booleanas (`true` e `false`) combinadas com os três operadores lógicos principais (`&&`, `||` e `!`), imprimindo cada resultado no terminal para conferir na prática o funcionamento das tabelas-verdade em TypeScript.
+
+---
+
+## 💻 Código-Fonte
+
+O código completo está em [BooleanLogic.ts](BooleanLogic.ts).
 
 ---
 
@@ -32,13 +35,12 @@ If 'b' is inverted, 'a' or 'b' is true? false
 
 ---
 
-## 💡 Conceitos Aplicados
+## 💡 Principais Conceitos Aplicados
 
-- **Tipagem Estática (`boolean`):** Declaração explícita de variáveis lógicas primitivas (`true` ou `false`).
-- **Operador de Conjunção (`&&` / E):** Retorna `true` apenas se ambas as expressões forem verdadeiras.
-- **Operador de Disjunção (`||` / OU):** Retorna `true` se pelo menos uma das expressões for verdadeira.
-- **Operador de Negação (`!` / NÃO):** Inverte o valor lógico da variável (`!b` inverte de `true` para `false`).
-- **Avaliação de Expressões em Saída:** Execução de operações lógicas entre parênteses diretamente na concatenação do `console.log()`.
+- **Tipo Booleano (`boolean`):** Armazenar estados de verdadeiro ou falso de forma explícita.
+- **E Lógico (`&&`):** Só retorna `true` quando os dois lados são `true`.
+- **OU Lógico (`||`):** Retorna `true` se pelo menos um dos lados for `true`.
+- **Negação (`!`):** Inverte o valor lógico (`!b` transforma `true` em `false`).
 
 ---
 
