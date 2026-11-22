@@ -3,9 +3,9 @@
   🇧🇷 **[Versão em Português](README.pt-BR.md)**
   <br>
 
-  # 🧠 Algorithms & Programming Logic | Fatec
+  # 🧠 Algorithms and Programming Logic | Fatec
 
-  ### **Practical Coursework, Data Structures, and Algorithmic Foundations in TypeScript**
+  ### **My Coursework, Class Exercises, and Algorithms in TypeScript**
 
   [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
@@ -16,65 +16,73 @@
 
 ---
 
-## 🎯 About the Course
+## 🎯 About This Repository
 
-In this repository, I organize my practical exercises, programming logic coursework, and computational thinking for the **Algorithms and Programming Logic (ALP)** course in the **Systems Analysis and Development (ADS)** degree at **Fatec Taubaté (CEETEPS)**, taught by **Prof. Robson Dagmar Zanato Pedroso**.
+This repository holds all the TypeScript programs and practical exercises I wrote during the **Algorithms and Programming Logic** course in my 1st semester of **Systems Analysis and Development (ADS)** at **Fatec Taubaté (CEETEPS)**.
 
-- **Workload:** 80 hours total (20 weekly sessions).
-- **Core Technology:** [TypeScript](https://www.typescriptlang.org/) on the [Node.js](https://nodejs.org/) runtime.
-- **Objective:** Solve programming logic problems with mathematical discipline, ISO/ANSI flowchart modeling, and RAM desk checking.
+Throughout the semester, I used these files both to practice the exercises from our weekly classes (flowcharts, desk checking, conditionals, `for` loops, typed arrays, and functions) and to test extra ideas on my own (like nested interfaces and dynamic user input). I write all source code, prompts, and comments in English (`README.md`) and keep full Portuguese translations (`README.pt-BR.md`) alongside every exercise.
 
-### Core Focus Areas
-- **The 3-Phase Variable Lifecycle:** Enforcing clear separation between Declaration, Initialization, and Assignment/Processing.
-- **Static Typing & Safety:** Eliminating runtime errors with strict TypeScript compiler checks and zero `any`.
-- **Flowchart Modeling & Desk Checking:** Mapping algorithm branching into ISO/ANSI diagrams and simulating step-by-step RAM memory transitions.
-- **Modular Code & Clean Code:** Building readable, maintainable logic with descriptive naming.
+- **Course:** Algorithms and Programming Logic (1st Semester, ADS).
+- **Professor:** Robson Dagmar Zanato Pedroso.
+- **Workload:** 80 hours total (weekly Monday night sessions).
+- **Core Stack:** [TypeScript](https://www.typescriptlang.org/) on [Node.js](https://nodejs.org/) with `prompt-sync` for terminal input.
 
 ---
 
-## 🗺️ Course Roadmap & Syllabus
+## 🗺️ Course Syllabus and Class Roadmap
 
-| Class | Topic | Status | Repository Module |
+| Class | Topic Covered in Class | Status | Exercises in This Repo |
 | :---: | :--- | :---: | :--- |
-| 01 | Foundations of algorithms, logic, and computational thinking | ✅ Done | Foundations |
+| 01 | Foundations of algorithms, logic, and computational thinking | ✅ Done | Initial concepts |
 | 02 | Algorithmic representation: narrative, pseudocode, and flowcharts | ✅ Done | [`src/01-average-student-grade/`](src/01-average-student-grade/) |
-| 03 | Data types, variables, constants, and basic I/O | ✅ Done | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/), [`src/04-boolean-logic/`](src/04-boolean-logic/) |
-| 04 | Operators, expressions, and sequential algorithms | ✅ Done | [`src/02-cart-final-value/`](src/02-cart-final-value/), [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/), [`src/06-nested-grades-report/`](src/06-nested-grades-report/) |
-| 05 | Decision structures & repetition with `for` loop | ✅ Done | [`src/07-multiplication-table/`](src/07-multiplication-table/), [`src/08-factorial-accumulator/`](src/08-factorial-accumulator/) |
-| 06 | Application of conditional structures and boundary validation | ⏳ Upcoming | Scheduled |
-| 07 | Chained decisions, multiple alternatives, and input validation | ⏳ Upcoming | Scheduled |
-| 08 | General Review for P1 Assessment | ⏳ Upcoming | Scheduled |
-| 09 | 1ª Avaliação Presencial (P1) | ⏳ Upcoming | Scheduled |
-| 10 | Foundations of repetition structures (`while`, accumulators) | ⏳ Upcoming | Scheduled |
-| 11 | Conditioned repetition loops | ⏳ Upcoming | Scheduled |
-| 12 | Counted repetition and iterative structure selection | ⏳ Upcoming | Scheduled |
-| 13 | Integration of control flow structures | ⏳ Upcoming | Scheduled |
-| 14 | Functions, procedures, and program modularization | ⏳ Upcoming | Scheduled |
-| 15 | Practical application of functions and procedures | ⏳ Upcoming | Scheduled |
-| 16 | Introduction to recursion | ⏳ Upcoming | Scheduled |
-| 17 | Algorithm debugging, testing, and validation | ⏳ Upcoming | Scheduled |
-| 18 | General Review for P2 Assessment | ⏳ Upcoming | Scheduled |
-| 19 | 2ª Avaliação Presencial (P2) | ⏳ Upcoming | Scheduled |
-| 20 | Course wrap-up and final grades | ⏳ Upcoming | Scheduled |
+| 03 | Data types, variables, 3-phase lifecycle, and boolean operators | ✅ Done | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/), [`src/04-boolean-logic/`](src/04-boolean-logic/) |
+| 04 | Conditional structures (`if`/`else`), ISO/ANSI flowcharts, and desk checking | ✅ Done | [`src/02-cart-final-value/`](src/02-cart-final-value/), [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/), [`src/06-nested-grades-report/`](src/06-nested-grades-report/) |
+| 05 | `for` loops, terminal input (`prompt-sync`), and intro to functions | ✅ Done | [`src/07-multiplication-table/`](src/07-multiplication-table/), [`src/08-factorial-accumulator/`](src/08-factorial-accumulator/) |
+| 06 | `for` loop practice, modulo (`%`), variable scope, and `break` | ✅ Done | [`src/09-four-grades-average/`](src/09-four-grades-average/), [`src/10-password-attempts/`](src/10-password-attempts/) |
+| P1 | **1st Assessment (P1):** Sequential logic, conditionals, flowcharts, and `for` loops (05/10/2026) | ✅ Done | In-class exam |
+| 07 | Vectors, matrices, and array methods (`push`, `pop`, `shift`, `unshift`, `.length`) | ✅ Done | [`src/11-array-methods-demo/`](src/11-array-methods-demo/), [`src/12-dynamic-grades-average/`](src/12-dynamic-grades-average/) |
+| 08 | Array manipulation and linear search for highest and lowest values | ✅ Done | [`src/13-sales-extremes-analysis/`](src/13-sales-extremes-analysis/) |
+| 09 | Functions, typed parameters, return types (`void`, `boolean`), scope, and arrays | ✅ Done | [`src/14-functions-practice/`](src/14-functions-practice/), [`src/15-modular-grades-average/`](src/15-modular-grades-average/) |
+| 10+ | Remaining topics, review, and **2nd Assessment (P2)** (14/12/2026) | ⏳ Upcoming | In progress |
 
-> [!NOTE] 💡 Asynchronous Makeup Material (EAD)
-> Complementary study modules provided by the professor in asynchronous format.
+> [!NOTE] 💡 Asynchronous Makeup Activities
+> On holidays and professor absences during the semester, we also received asynchronous makeup handouts covering algorithmic representation, conditionals, repetition (`while`), and 1D arrays.
+
+---
+
+## 🔄 How Exercises Evolved Across Classes
+
+Just like in other programming courses, the professor kept bringing back the **Student Grade Average** problem so we could rewrite it with each new concept we learned:
+
+### Student Grade Average Progression
+- **Class 02 (Fixed Variables):** Started with three hardcoded variables (`firstGrade`, `secondGrade`, `thirdGrade`) in [`src/01-average-student-grade/`](src/01-average-student-grade/).
+- **Class 04 (Conditionals and Flowchart):** Added `if`/`else` rules for approval, probation, and failure with a full ISO/ANSI flowchart and desk check in [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/).
+- **Class 06 (`for` Loop and Accumulator):** Replaced separate grade variables with one reused input variable and an accumulator (`numberSum += inputNumber`) plus console desk-check output in [`src/09-four-grades-average/`](src/09-four-grades-average/).
+- **Class 07 (Dynamic Typed Array):** Stored `N` grades chosen by the user in `grades: number[]`, splitting reading and summing into two separate `for` loops in [`src/12-dynamic-grades-average/`](src/12-dynamic-grades-average/).
+- **Class 09 (Modular Function):** Moved the calculation into a reusable typed function `averageGrade(gradesList: number[]): number` with an empty-array guard clause in [`src/15-modular-grades-average/`](src/15-modular-grades-average/).
 
 ---
 
 ## 📝 Exercises Index
 
-| # | Exercise | Code & Documentation | Core Concepts |
-| :-: | :--- | :--- | :--- |
-| 00 | **Consolidated Menu** | [`src/00-consolidated-menu/`](src/00-consolidated-menu/) | Interactive console menu uniting all coursework exercises into a single program. |
-| 01 | **Student Grade Average** | [`src/01-average-student-grade/`](src/01-average-student-grade/) | Static typing (`number`), arithmetic operators, precedence parentheses. |
-| 02 | **Shopping Cart Calculation** | [`src/02-cart-final-value/`](src/02-cart-final-value/) | Data modeling (`interface`), typed arrays (`Array`), accumulator variables. |
-| 03 | **Sum of Two Numbers** | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/) | Variable lifecycle in 3 phases (Declaration $\rightarrow$ Initialization $\rightarrow$ Assignment). |
-| 04 | **Boolean Logic & Operators** | [`src/04-boolean-logic/`](src/04-boolean-logic/) | Boolean truth evaluation, short-circuit operators (`&&`, `\|\|`, `!`). |
-| 05 | **Grade Approval Flow** | [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/) | Compound conditionals (`if`/`else`), ISO/ANSI flowcharts, RAM desk checking. |
-| 06 | **Nested Grades Report** | [`src/06-nested-grades-report/`](src/06-nested-grades-report/) | Nested `interfaces`, 2D loops, `.toFixed(2)` formatting *(My prior self-study)*. |
-| 07 | **Multiplication Table** | [`src/07-multiplication-table/`](src/07-multiplication-table/) | Counted `for` loop, terminal input, comparing professor's direct calculation with my intermediate variable approach. |
-| 08 | **Factorial Calculator** | [`src/08-factorial-accumulator/`](src/08-factorial-accumulator/) | Multiplicative accumulator ($n!$), comparing the professor's descending method with my two approaches developed in class. |
+| # | Exercise | Class | Code and Documentation | Key Concepts |
+| :-: | :--- | :---: | :--- | :--- |
+| 00 | **Consolidated Menu** | 02 to 09 | [`src/00-consolidated-menu/`](src/00-consolidated-menu/) | Interactive CLI menu bringing all 15 coursework exercises into one `do...while` loop. |
+| 01 | **Student Grade Average** | Class 02 | [`src/01-average-student-grade/`](src/01-average-student-grade/) | Explicit `number` typing, arithmetic precedence parentheses, `console.log()`. |
+| 02 | **Shopping Cart Calculation** | Class 04 | [`src/02-cart-final-value/`](src/02-cart-final-value/) | `interface` modeling, typed object array (`CartItem[]`), price accumulator. |
+| 03 | **Sum of Two Numbers** | Class 03 | [`src/03-two-numbers-sum/`](src/03-two-numbers-sum/) | 3-phase variable lifecycle (Declaration -> Initialization -> Assignment). |
+| 04 | **Boolean Logic and Operators** | Class 03 | [`src/04-boolean-logic/`](src/04-boolean-logic/) | `boolean` values and truth evaluation with `&&`, `\|\|`, and `!`. |
+| 05 | **Grade Approval Flow** | Class 04 | [`src/05-grade-approval-flow/`](src/05-grade-approval-flow/) | Compound `if`/`else` branches, ISO/ANSI flowchart, RAM desk checking. |
+| 06 | **Nested Grades Report** | Class 04 | [`src/06-nested-grades-report/`](src/06-nested-grades-report/) | Nested interfaces, 2D `for` loops, `.toFixed(2)`, template strings *(My self-study)*. |
+| 07 | **Multiplication Table** | Class 05 | [`src/07-multiplication-table/`](src/07-multiplication-table/) | Counted `for` loop, `prompt-sync` input, direct calculation vs. intermediate variable. |
+| 08 | **Factorial Calculator** | Class 05 | [`src/08-factorial-accumulator/`](src/08-factorial-accumulator/) | Multiplicative accumulator (`n!`), comparing descending, ascending, and offset `for` loops. |
+| 09 | **Average of 4 Grades** | Class 06 | [`src/09-four-grades-average/`](src/09-four-grades-average/) | `for` loop accumulator, block vs. outer scope, optional console desk-check mode. |
+| 10 | **Password Check (3 Attempts)** | Class 06 | [`src/10-password-attempts/`](src/10-password-attempts/) | Early loop exit with `break`, countdown of remaining attempts, `isAuthenticated` flag. |
+| 11 | **Array Indexing and Methods** | Class 07 | [`src/11-array-methods-demo/`](src/11-array-methods-demo/) | Zero-based indexing, `.length`, `pop()`, `unshift()`, `push()`, `shift()`, size-agnostic loop. |
+| 12 | **Dynamic Grades Average** | Class 07 | [`src/12-dynamic-grades-average/`](src/12-dynamic-grades-average/) | Typed `number[]` array sized by user input, separated collection and sum loops. |
+| 13 | **Sales Extremes and Average** | Class 08 | [`src/13-sales-extremes-analysis/`](src/13-sales-extremes-analysis/) | Default 7-sale dataset or custom input, single-pass sum, average, highest, and lowest scan. |
+| 14 | **TypeScript Functions Practice** | Class 09 | [`src/14-functions-practice/`](src/14-functions-practice/) | Typed signatures, local vs. global scope, `return` exit, `void` and `boolean` functions. |
+| 15 | **Modular Grades Average** | Class 09 | [`src/15-modular-grades-average/`](src/15-modular-grades-average/) | Passing `number[]` to `averageGrade()`, empty-array guard clause against `NaN`. |
 
 ---
 
@@ -82,32 +90,76 @@ In this repository, I organize my practical exercises, programming logic coursew
 
 ```text
 .
-├── .agent/
-│   └── skills/
-│       ├── fatec-alp-coursework/     # Skill for processing ALP coursework notes and audit
-│       │   ├── SKILL.md
-│       │   ├── scripts/              # recon_alp_class.py and validate_alp_coursework.py
-│       │   └── references/           # Syllabus and coursework coding standards
-│       └── fatec-alp-commits/        # Skill for semantic Conventional Commits validation
-│           ├── SKILL.md
-│           └── scripts/              # validate_alp_commit.py
-│
 ├── src/
-│   ├── utils/                        # Shared utilities (safe interactive terminal input)
-│   ├── 00-consolidated-menu/         # Interactive coursework CLI runner
+│   ├── 00-consolidated-menu/
+│   │   ├── consolidated_menu.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 01-average-student-grade/
+│   │   ├── AverageStudentGrade.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 02-cart-final-value/
+│   │   ├── CartFinalValue.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 03-two-numbers-sum/
+│   │   ├── TwoNumbersSum.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 04-boolean-logic/
+│   │   ├── BooleanLogic.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 05-grade-approval-flow/
+│   │   ├── GradeApprovalFlow.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 06-nested-grades-report/
+│   │   ├── NestedGradesReport.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
 │   ├── 07-multiplication-table/
-│   └── 08-factorial-accumulator/
+│   │   ├── MultiplicationTable.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 08-factorial-accumulator/
+│   │   ├── FactorialAccumulator.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 09-four-grades-average/
+│   │   ├── FourGradesAverage.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 10-password-attempts/
+│   │   ├── PasswordAttempts.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 11-array-methods-demo/
+│   │   ├── ArrayMethodsDemo.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 12-dynamic-grades-average/
+│   │   ├── DynamicGradesAverage.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 13-sales-extremes-analysis/
+│   │   ├── SalesExtremesAnalysis.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   ├── 14-functions-practice/
+│   │   ├── FunctionsPractice.ts
+│   │   ├── README.md
+│   │   └── README.pt-BR.md
+│   └── 15-modular-grades-average/
+│       ├── ModularGradesAverage.ts
+│       ├── README.md
+│       └── README.pt-BR.md
 │
 ├── package.json
 ├── tsconfig.json
-├── README.md                         # English documentation
-└── README.pt-BR.md                   # Portuguese documentation
+├── README.md           # English documentation
+└── README.pt-BR.md     # Portuguese documentation
 ```
 
 ---
@@ -115,34 +167,69 @@ In this repository, I organize my practical exercises, programming logic coursew
 ## 🚀 How to Run
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v20+ recommended).
+- [Node.js](https://nodejs.org/) installed (v20+ recommended).
 
-### Interactive Consolidated Menu (Recommended)
-Run all coursework algorithms interactively from a single terminal interface:
+### Setup and Interactive Menu (Recommended)
+Install dependencies once and run the consolidated menu from the root folder:
 
 ```bash
+npm install
 npm start
 ```
 
-### Direct Execution with `tsx`
-Run any individual exercise directly:
+### Running Individual Exercises with `tsx`
 
 ```bash
+# Exercise 01: Student Grade Average
+npx tsx src/01-average-student-grade/AverageStudentGrade.ts
+
+# Exercise 02: Shopping Cart Calculation
+npx tsx src/02-cart-final-value/CartFinalValue.ts
+
+# Exercise 03: Sum of Two Numbers
+npx tsx src/03-two-numbers-sum/TwoNumbersSum.ts
+
+# Exercise 04: Boolean Logic and Operators
+npx tsx src/04-boolean-logic/BooleanLogic.ts
+
+# Exercise 05: Grade Approval Flow
+npx tsx src/05-grade-approval-flow/GradeApprovalFlow.ts
+
+# Exercise 06: Nested Grades Report
+npx tsx src/06-nested-grades-report/NestedGradesReport.ts
+
 # Exercise 07: Multiplication Table
 npx tsx src/07-multiplication-table/MultiplicationTable.ts
 
 # Exercise 08: Factorial Calculator
 npx tsx src/08-factorial-accumulator/FactorialAccumulator.ts
+
+# Exercise 09: Average of 4 Grades
+npx tsx src/09-four-grades-average/FourGradesAverage.ts
+
+# Exercise 10: Password Check (3 Attempts)
+npx tsx src/10-password-attempts/PasswordAttempts.ts
+
+# Exercise 11: Array Indexing and Core Methods
+npx tsx src/11-array-methods-demo/ArrayMethodsDemo.ts
+
+# Exercise 12: Dynamic Grades Average
+npx tsx src/12-dynamic-grades-average/DynamicGradesAverage.ts
+
+# Exercise 13: Sales Extremes and Average
+npx tsx src/13-sales-extremes-analysis/SalesExtremesAnalysis.ts
+
+# Exercise 14: TypeScript Functions Practice
+npx tsx src/14-functions-practice/FunctionsPractice.ts
+
+# Exercise 15: Modular Grades Average
+npx tsx src/15-modular-grades-average/ModularGradesAverage.ts
 ```
 
-### Code Quality & Verification
+### Type Checking
 
 ```bash
-# Run strict TypeScript typechecking
 npm run typecheck
-
-# Run coursework audit
-npm run audit
 ```
 
 ---
